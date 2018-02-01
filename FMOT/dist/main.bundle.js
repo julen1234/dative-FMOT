@@ -134,13 +134,15 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__categoriaES_categoriasES_component__ = __webpack_require__("../../../../../src/app/categoriaES/categoriasES.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__logisticaES_logisticaES_component__ = __webpack_require__("../../../../../src/app/logisticaES/logisticaES.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__logisticaPT_logisticaPT_component__ = __webpack_require__("../../../../../src/app/logisticaPT/logisticaPT.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__shopperPsycologhy_shopperPsycologhy_component__ = __webpack_require__("../../../../../src/app/shopperPsycologhy/shopperPsycologhy.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -166,7 +168,7 @@ var AppModule = (function () {
 AppModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["M" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_16__app_component__["a" /* AppComponent */],
+            __WEBPACK_IMPORTED_MODULE_17__app_component__["a" /* AppComponent */],
             __WEBPACK_IMPORTED_MODULE_2__app_routing_module__["b" /* routingComponents */],
             __WEBPACK_IMPORTED_MODULE_7__translate_translate_pipe__["a" /* TranslatePipe */],
             __WEBPACK_IMPORTED_MODULE_9__login_login_component__["a" /* LoginComponent */],
@@ -175,7 +177,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_12__categoriasPT_categoriasPT_component__["a" /* CategoriasPTComponent */],
             __WEBPACK_IMPORTED_MODULE_13__categoriaES_categoriasES_component__["a" /* CategoriasESComponent */],
             __WEBPACK_IMPORTED_MODULE_14__logisticaES_logisticaES_component__["a" /* LogisticaESComponent */],
-            __WEBPACK_IMPORTED_MODULE_15__logisticaPT_logisticaPT_component__["a" /* LogisticaPTComponent */]
+            __WEBPACK_IMPORTED_MODULE_15__logisticaPT_logisticaPT_component__["a" /* LogisticaPTComponent */],
+            __WEBPACK_IMPORTED_MODULE_16__shopperPsycologhy_shopperPsycologhy_component__["a" /* ShopperPsycologhyComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -184,7 +187,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_3__navbar_cuestionarios_routing_module__["a" /* CuestionariosRoutingModule */]
         ],
         providers: [__WEBPACK_IMPORTED_MODULE_5__translate_translate_service__["a" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_8__translate_translations__["b" /* TRANSLATION_PROVIDERS */], __WEBPACK_IMPORTED_MODULE_6__services_login_service__["a" /* LoginService */]],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_16__app_component__["a" /* AppComponent */]]
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_17__app_component__["a" /* AppComponent */]]
     })
 ], AppModule);
 
@@ -195,7 +198,7 @@ AppModule = __decorate([
 /***/ "../../../../../src/app/categoriaES/categoriasES.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid\" style=\"padding-top: 10px;\">\n  <iframe id=\"typeform-full\" width=\"100%\" height=\"800px;\" frameborder=\"0\"\n          src=\"https://jamenedo.typeform.com/to/k2jdAi\"></iframe>\n</div>\n"
+module.exports = "<div class=\"container-fluid\" style=\"padding-top: 10px;\">\n  <iframe id=\"typeform-full\" width=\"100%\" height=\"800px;\" frameborder=\"0\"\n          src=\"https://jamenedo.typeform.com/to/qsI7YR\"></iframe>\n</div>\n"
 
 /***/ }),
 
@@ -233,7 +236,7 @@ CategoriasESComponent = __decorate([
 /***/ "../../../../../src/app/categoriasPT/categoriasPT.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid\" style=\"padding-top: 10px;\">\n  <iframe id=\"typeform-full\" width=\"100%\" height=\"800px;\" frameborder=\"0\"\n          src=\"https://jamenedo.typeform.com/to/k2jdAi\"></iframe>\n</div>\n"
+module.exports = "<div class=\"container-fluid\" style=\"padding-top: 10px;\">\n  <iframe id=\"typeform-full\" width=\"100%\" height=\"800px;\" frameborder=\"0\"\n          src=\"https://jamenedo.typeform.com/to/D7WobE\"></iframe>\n</div>\n"
 
 /***/ }),
 
@@ -271,7 +274,7 @@ CategoriasPTComponent = __decorate([
 /***/ "../../../../../src/app/controlCliente/controlCliente.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid\" style=\"padding-top: 10px;\">\n  <iframe id=\"typeform-full\" width=\"100%\" height=\"800px;\" frameborder=\"0\"\n          src=\"https://jamenedo.typeform.com/to/k2jdAi\"></iframe>\n</div>\n"
+module.exports = "<div class=\"container-fluid\" style=\"padding-top: 10px;\">\n  <iframe id=\"typeform-full\" width=\"100%\" height=\"800px;\" frameborder=\"0\"\n          src=\"https://jamenedo.typeform.com/to/Tsyldw\"></iframe>\n</div>\n"
 
 /***/ }),
 
@@ -385,7 +388,7 @@ var _a, _b, _c;
 /***/ "../../../../../src/app/logisticaES/logisticaES.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid\" style=\"padding-top: 10px;\">\n  <iframe id=\"typeform-full\" width=\"100%\" height=\"800px;\" frameborder=\"0\"\n          src=\"https://jamenedo.typeform.com/to/k2jdAi\"></iframe>\n</div>\n"
+module.exports = "<div class=\"container-fluid\" style=\"padding-top: 10px;\">\n  <iframe id=\"typeform-full\" width=\"100%\" height=\"800px;\" frameborder=\"0\"\n          src=\"https://jamenedo.typeform.com/to/mijFi7\"></iframe>\n</div>\n"
 
 /***/ }),
 
@@ -423,7 +426,7 @@ LogisticaESComponent = __decorate([
 /***/ "../../../../../src/app/logisticaPT/logisticaPT.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid\" style=\"padding-top: 10px;\">\n  <iframe id=\"typeform-full\" width=\"100%\" height=\"800px;\" frameborder=\"0\"\n          src=\"https://jamenedo.typeform.com/to/k2jdAi\"></iframe>\n</div>\n"
+module.exports = "<div class=\"container-fluid\" style=\"padding-top: 10px;\">\n  <iframe id=\"typeform-full\" width=\"100%\" height=\"800px;\" frameborder=\"0\"\n          src=\"https://jamenedo.typeform.com/to/k2jdAi\"></iframe>\n</div>\n\n"
 
 /***/ }),
 
@@ -471,12 +474,14 @@ LogisticaPTComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__categoriaES_categoriasES_component__ = __webpack_require__("../../../../../src/app/categoriaES/categoriasES.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__categoriasPT_categoriasPT_component__ = __webpack_require__("../../../../../src/app/categoriasPT/categoriasPT.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__logisticaPT_logisticaPT_component__ = __webpack_require__("../../../../../src/app/logisticaPT/logisticaPT.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__shopperPsycologhy_shopperPsycologhy_component__ = __webpack_require__("../../../../../src/app/shopperPsycologhy/shopperPsycologhy.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -510,6 +515,10 @@ var routes = [
                 path: 'logistica-PT',
                 component: __WEBPACK_IMPORTED_MODULE_7__logisticaPT_logisticaPT_component__["a" /* LogisticaPTComponent */]
             },
+            {
+                path: 'shopperPsycologhy',
+                component: __WEBPACK_IMPORTED_MODULE_8__shopperPsycologhy_shopperPsycologhy_component__["a" /* ShopperPsycologhyComponent */]
+            },
         ]
     }
 ];
@@ -535,7 +544,7 @@ CuestionariosRoutingModule = __decorate([
 /***/ "../../../../../src/app/navbar/navbar.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-fmot navbar-default\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\"  style=\"border: 0px; color: white\">\n      <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#myNavbar\">\n        <span class=\"icon-bar\" style=\"color: #3D3D3D\"></span>\n        <span class=\"icon-bar\" style=\"color: #3D3D3D\"></span>\n        <span class=\"icon-bar\" style=\"color: #3D3D3D\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"#\" class=\"hidden-xs hidden-sm\">\n        <img src=\"assets/img/logo.png\" class=\"img-responsive\" style=\"width: 175px; height: 75px;\">\n      </a>\n      <a class=\"navbar-brand\" href=\"#\" class=\"hidden-lg hidden-md\">\n        <img src=\"assets/img/logo.png\"  class=\"img-responsive\" style=\"width: 115px; height: 55px;\">\n      </a>\n    </div>\n    <div class=\"collapse navbar-collapse\" id=\"myNavbar\">\n      <ul class=\"nav navbar-nav navbar-right\">\n        <li><a routerLink=\"/dashboard/control-cliente\">Control Clientes</a></li>\n        <li><a routerLink=\"/dashboard/categorias-ES\">FMOT Categorias ES</a></li>\n        <li><a routerLink=\"/dashboard/categorias-PT\">FMOT Categorias PT</a></li>\n        <li><a routerLink=\"/dashboard/logistica-ES\">FMOT Logística ES</a></li>\n        <li><a routerLink=\"/dashboard/logistica-PT\">FMOT Logística PT</a></li>\n        <li class=\"dropdown\">\n          <a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">Hola {{ usuario.userName }}!\n            <span class=\"caret\"></span></a>\n          <ul class=\"dropdown-menu\" style=\"position: relative\">\n            <li><a routerLink=\"/\"><span class=\"glyphicon glyphicon-log-in\" ></span> Logout</a></li>\n          </ul>\n        </li>\n      </ul>\n    </div>\n  </div>\n</nav>\n<router-outlet></router-outlet>\n"
+module.exports = "<nav class=\"navbar navbar-fmot navbar-default\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\"  style=\"border: 0px; color: white\">\n      <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#myNavbar\">\n        <span class=\"icon-bar\" style=\"color: #3D3D3D\"></span>\n        <span class=\"icon-bar\" style=\"color: #3D3D3D\"></span>\n        <span class=\"icon-bar\" style=\"color: #3D3D3D\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"#\" class=\"hidden-xs hidden-sm\">\n        <img src=\"assets/img/logo.png\" class=\"img-responsive\" style=\"width: 175px; height: 75px;\">\n      </a>\n      <a class=\"navbar-brand\" href=\"#\" class=\"hidden-lg hidden-md\">\n        <img src=\"assets/img/logo.png\"  class=\"img-responsive\" style=\"width: 115px; height: 55px;\">\n      </a>\n    </div>\n    <div class=\"collapse navbar-collapse\" id=\"myNavbar\">\n      <ul class=\"nav navbar-nav navbar-right\">\n        <li><a routerLink=\"/dashboard/control-cliente\">Control Clientes</a></li>\n        <li><a routerLink=\"/dashboard/categorias-ES\">FMOT Categorias ES</a></li>\n        <li><a routerLink=\"/dashboard/categorias-PT\">FMOT Categorias PT</a></li>\n        <li><a routerLink=\"/dashboard/logistica-ES\">FMOT Logística ES</a></li>\n        <li><a routerLink=\"/dashboard/logistica-PT\">FMOT Logística PT</a></li>\n        <li><a routerLink=\"/dashboard/shopperPsycologhy\">Shopper Psycologhy</a></li>\n        <li class=\"dropdown\">\n          <a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">Hola {{ usuario.userName }}!\n            <span class=\"caret\"></span></a>\n          <ul class=\"dropdown-menu\" style=\"position: relative\">\n            <li><a routerLink=\"/\"><span class=\"glyphicon glyphicon-log-in\" ></span> Logout</a></li>\n          </ul>\n        </li>\n      </ul>\n    </div>\n  </div>\n</nav>\n<router-outlet></router-outlet>\n"
 
 /***/ }),
 
@@ -582,6 +591,42 @@ NavbarComponent = __decorate([
 
 var _a, _b;
 //# sourceMappingURL=navbar.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/shopperPsycologhy/shopperPsycologhy.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container-fluid\" style=\"padding-top: 10px;\">\n  <iframe id=\"typeform-full\" width=\"100%\" height=\"800px;\" frameborder=\"0\"\n          src=\"https://jamenedo.typeform.com/to/kSfI8y\"></iframe>\n</div>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/shopperPsycologhy/shopperPsycologhy.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShopperPsycologhyComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var ShopperPsycologhyComponent = (function () {
+    function ShopperPsycologhyComponent() {
+    }
+    return ShopperPsycologhyComponent;
+}());
+ShopperPsycologhyComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-shopper',
+        template: __webpack_require__("../../../../../src/app/shopperPsycologhy/shopperPsycologhy.component.html")
+    })
+], ShopperPsycologhyComponent);
+
+//# sourceMappingURL=shopperPsycologhy.component.js.map
 
 /***/ }),
 

@@ -15,6 +15,7 @@ import {CategoriasPTComponent} from './categoriasPT/categoriasPT.component';
 import {CategoriasESComponent} from './categoriaES/categoriasES.component';
 import {LogisticaESComponent} from './logisticaES/logisticaES.component';
 import {LogisticaPTComponent} from './logisticaPT/logisticaPT.component';
+import {ShopperPsycologhyComponent} from './shopperPsycologhy/shopperPsycologhy.component';
 
 
 import {AppComponent} from './app.component';
@@ -30,7 +31,8 @@ import {AppComponent} from './app.component';
     CategoriasPTComponent,
     CategoriasESComponent,
     LogisticaESComponent,
-    LogisticaPTComponent
+    LogisticaPTComponent,
+    ShopperPsycologhyComponent
   ],
   imports: [
     BrowserModule,

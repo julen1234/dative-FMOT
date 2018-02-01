@@ -6,6 +6,7 @@ import {NavbarComponent} from './navbar.component';
 import {CategoriasESComponent} from '../categoriaES/categoriasES.component';
 import {CategoriasPTComponent} from '../categoriasPT/categoriasPT.component';
 import {LogisticaPTComponent} from '../logisticaPT/logisticaPT.component';
+import {ShopperPsycologhyComponent} from '../shopperPsycologhy/shopperPsycologhy.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
       {
         path: 'logistica-PT',
         component: LogisticaPTComponent
+      },
+      {
+        path: 'shopperPsycologhy',
+        component: ShopperPsycologhyComponent
       },
     ]
   }
